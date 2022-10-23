@@ -6,6 +6,9 @@ import CreateArea from "./CreateArea";
 
 function App() {
 
+    //Just made all other components stateless by creating the states in the App component and passing
+    //them as props into child components
+
     const [todoText, setTodoText] = useState({
         title: "",
         content: ""

@@ -18,6 +18,24 @@
 .env.test.local
 .env.production.local
 
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# useless files
+.fleet/
+.idea/
+public/favicon.ico
+public/logo192.png
+public/logo512.png
+public/manifest.json
+src/
+App.css
+src/App.js
+src/App.test.js
+src/index.css
+src/logo.svg
+src/reportWebVitals.js
+src/se
+tupTests.js
